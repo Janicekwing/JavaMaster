@@ -6,10 +6,6 @@ public class Account{
     private String customerEmailAddress;
     private String customerPhoneNumber;
 
-    public Account(){
-        
-    }
-
     public void deposit(int amount){
         this.balance += amount;
         System.out.printf("You now have " + this.balance + " in your account \n");
