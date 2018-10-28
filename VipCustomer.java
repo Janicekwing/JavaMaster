@@ -3,14 +3,14 @@ public class VipCustomer{
     private int creditLimit;
     private String emailAddress;
 
+    public VipCustomer(){
+        this("Janice", 2000, "jbu@edu");
+    }
+
     public VipCustomer(String name, int creditLimit, String emailAddress){
         this.name = name;
         this.creditLimit = creditLimit;
         this.emailAddress = emailAddress;
-    }
-
-    public VipCustomer(){
-        this("Janice", 2000, "jbu@edu");
     }
 
     public VipCustomer(int creditLimit, String emailAddress){
